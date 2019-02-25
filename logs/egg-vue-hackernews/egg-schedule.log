@@ -1,0 +1,16 @@
+2019-02-26 00:00:35,913 INFO 9872 [egg-schedule]: register schedule /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-02-26 00:00:35,913 INFO 9872 [egg-schedule]: register schedule /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-02-26 00:00:37,407 INFO 9879 [egg-schedule]: register schedule /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-02-26 00:00:37,407 INFO 9879 [egg-schedule]: register schedule /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-02-26 00:01:26,080 INFO 9896 [egg-schedule]: register schedule /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-02-26 00:01:26,080 INFO 9896 [egg-schedule]: register schedule /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-02-26 00:02:21,024 INFO 9917 [egg-schedule]: register schedule /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-02-26 00:02:21,025 INFO 9917 [egg-schedule]: register schedule /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-02-26 00:07:40,984 INFO 9958 [egg-schedule]: register schedule /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-02-26 00:07:40,984 INFO 9958 [egg-schedule]: register schedule /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-02-26 00:07:42,242 INFO 9969 [egg-schedule]: register schedule /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-02-26 00:07:42,242 INFO 9969 [egg-schedule]: register schedule /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-02-26 00:07:46,734 INFO 9976 [egg-schedule]: register schedule /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-02-26 00:07:46,734 INFO 9976 [egg-schedule]: register schedule /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-02-26 00:08:03,704 INFO 9992 [egg-schedule]: register schedule /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-02-26 00:08:03,704 INFO 9992 [egg-schedule]: register schedule /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator/app/schedule/rotate_by_file.js

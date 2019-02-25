@@ -1,0 +1,113 @@
+2019-02-26 00:00:01,012 INFO 9834 [egg-logrotator] app logger reload: got log-reload message
+2019-02-26 00:00:35,851 INFO 9872 [egg:logger] init all loggers with options: {"dir":"/Users/gui/Documents/code/github/egg-vue-hackernews/logs/egg-vue-hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-vue-hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-26 00:00:35,914 INFO 9872 [egg-multipart] stream mode enable
+2019-02-26 00:00:36,039 INFO 9872 [egg-static] starting static serve /public/ -> /Users/gui/Documents/code/github/egg-vue-hackernews/app/public
+2019-02-26 00:00:36,042 INFO 9872 [egg-security] use csrf middleware
+2019-02-26 00:00:36,044 INFO 9872 [egg-security] use methodnoallow middleware
+2019-02-26 00:00:36,045 INFO 9872 [egg-security] use noopen middleware
+2019-02-26 00:00:36,046 INFO 9872 [egg-security] use nosniff middleware
+2019-02-26 00:00:36,047 INFO 9872 [egg-security] use xssProtection middleware
+2019-02-26 00:00:36,047 INFO 9872 [egg-security] use xframe middleware
+2019-02-26 00:00:36,048 INFO 9872 [egg-security] use dta middleware
+2019-02-26 00:00:36,048 INFO 9872 [egg-security] compose 7 middlewares into one security middleware
+2019-02-26 00:00:36,071 INFO 9872 [egg:core] dump config after load, 14ms
+2019-02-26 00:00:36,090 INFO 9872 [egg-watcher:application] watcher start success
+2019-02-26 00:00:36,101 INFO 9872 [egg:core] dump config after ready, 7ms
+2019-02-26 00:00:37,372 INFO 9879 [egg:logger] init all loggers with options: {"dir":"/Users/gui/Documents/code/github/egg-vue-hackernews/logs/egg-vue-hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-vue-hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-26 00:00:37,408 INFO 9879 [egg-multipart] stream mode enable
+2019-02-26 00:00:37,462 INFO 9879 [egg-static] starting static serve /public/ -> /Users/gui/Documents/code/github/egg-vue-hackernews/app/public
+2019-02-26 00:00:37,465 INFO 9879 [egg-security] use csrf middleware
+2019-02-26 00:00:37,466 INFO 9879 [egg-security] use methodnoallow middleware
+2019-02-26 00:00:37,466 INFO 9879 [egg-security] use noopen middleware
+2019-02-26 00:00:37,467 INFO 9879 [egg-security] use nosniff middleware
+2019-02-26 00:00:37,467 INFO 9879 [egg-security] use xssProtection middleware
+2019-02-26 00:00:37,467 INFO 9879 [egg-security] use xframe middleware
+2019-02-26 00:00:37,468 INFO 9879 [egg-security] use dta middleware
+2019-02-26 00:00:37,468 INFO 9879 [egg-security] compose 7 middlewares into one security middleware
+2019-02-26 00:00:37,477 INFO 9879 [egg:core] dump config after load, 5ms
+2019-02-26 00:00:37,498 INFO 9879 [egg-watcher:application] watcher start success
+2019-02-26 00:00:37,534 INFO 9879 [egg:core] dump config after ready, 16ms
+2019-02-26 00:01:26,039 INFO 9896 [egg:logger] init all loggers with options: {"dir":"/Users/gui/Documents/code/github/egg-vue-hackernews/logs/egg-vue-hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-vue-hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-26 00:01:26,080 INFO 9896 [egg-multipart] stream mode enable
+2019-02-26 00:01:26,163 INFO 9896 [egg-static] starting static serve /public/ -> /Users/gui/Documents/code/github/egg-vue-hackernews/app/public
+2019-02-26 00:01:26,167 INFO 9896 [egg-security] use csrf middleware
+2019-02-26 00:01:26,168 INFO 9896 [egg-security] use methodnoallow middleware
+2019-02-26 00:01:26,168 INFO 9896 [egg-security] use noopen middleware
+2019-02-26 00:01:26,169 INFO 9896 [egg-security] use nosniff middleware
+2019-02-26 00:01:26,170 INFO 9896 [egg-security] use xssProtection middleware
+2019-02-26 00:01:26,171 INFO 9896 [egg-security] use xframe middleware
+2019-02-26 00:01:26,171 INFO 9896 [egg-security] use dta middleware
+2019-02-26 00:01:26,171 INFO 9896 [egg-security] compose 7 middlewares into one security middleware
+2019-02-26 00:01:26,183 INFO 9896 [egg:core] dump config after load, 7ms
+2019-02-26 00:01:26,196 INFO 9896 [egg-watcher:application] watcher start success
+2019-02-26 00:01:26,204 INFO 9896 [egg:core] dump config after ready, 5ms
+2019-02-26 00:02:20,976 INFO 9917 [egg:logger] init all loggers with options: {"dir":"/Users/gui/Documents/code/github/egg-vue-hackernews/logs/egg-vue-hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-vue-hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-26 00:02:21,025 INFO 9917 [egg-multipart] stream mode enable
+2019-02-26 00:02:21,110 INFO 9917 [egg-static] starting static serve /public/ -> /Users/gui/Documents/code/github/egg-vue-hackernews/app/public
+2019-02-26 00:02:21,113 INFO 9917 [egg-security] use csrf middleware
+2019-02-26 00:02:21,114 INFO 9917 [egg-security] use methodnoallow middleware
+2019-02-26 00:02:21,115 INFO 9917 [egg-security] use noopen middleware
+2019-02-26 00:02:21,116 INFO 9917 [egg-security] use nosniff middleware
+2019-02-26 00:02:21,117 INFO 9917 [egg-security] use xssProtection middleware
+2019-02-26 00:02:21,117 INFO 9917 [egg-security] use xframe middleware
+2019-02-26 00:02:21,118 INFO 9917 [egg-security] use dta middleware
+2019-02-26 00:02:21,118 INFO 9917 [egg-security] compose 7 middlewares into one security middleware
+2019-02-26 00:02:21,128 INFO 9917 [egg:core] dump config after load, 5ms
+2019-02-26 00:02:21,141 INFO 9917 [egg-watcher:application] watcher start success
+2019-02-26 00:02:21,148 INFO 9917 [egg:core] dump config after ready, 4ms
+2019-02-26 00:07:40,932 INFO 9958 [egg:logger] init all loggers with options: {"dir":"/Users/gui/Documents/code/github/egg-vue-hackernews/logs/egg-vue-hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-vue-hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-26 00:07:40,985 INFO 9958 [egg-multipart] stream mode enable
+2019-02-26 00:07:41,064 INFO 9958 [egg-static] starting static serve /public/ -> /Users/gui/Documents/code/github/egg-vue-hackernews/app/public
+2019-02-26 00:07:41,067 INFO 9958 [egg-security] use csrf middleware
+2019-02-26 00:07:41,068 INFO 9958 [egg-security] use methodnoallow middleware
+2019-02-26 00:07:41,069 INFO 9958 [egg-security] use noopen middleware
+2019-02-26 00:07:41,070 INFO 9958 [egg-security] use nosniff middleware
+2019-02-26 00:07:41,070 INFO 9958 [egg-security] use xssProtection middleware
+2019-02-26 00:07:41,071 INFO 9958 [egg-security] use xframe middleware
+2019-02-26 00:07:41,071 INFO 9958 [egg-security] use dta middleware
+2019-02-26 00:07:41,071 INFO 9958 [egg-security] compose 7 middlewares into one security middleware
+2019-02-26 00:07:41,082 INFO 9958 [egg:core] dump config after load, 6ms
+2019-02-26 00:07:41,095 INFO 9958 [egg-watcher:application] watcher start success
+2019-02-26 00:07:41,102 INFO 9958 [egg:core] dump config after ready, 5ms
+2019-02-26 00:07:42,204 INFO 9969 [egg:logger] init all loggers with options: {"dir":"/Users/gui/Documents/code/github/egg-vue-hackernews/logs/egg-vue-hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-vue-hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-26 00:07:42,243 INFO 9969 [egg-multipart] stream mode enable
+2019-02-26 00:07:42,294 INFO 9969 [egg-static] starting static serve /public/ -> /Users/gui/Documents/code/github/egg-vue-hackernews/app/public
+2019-02-26 00:07:42,297 INFO 9969 [egg-security] use csrf middleware
+2019-02-26 00:07:42,297 INFO 9969 [egg-security] use methodnoallow middleware
+2019-02-26 00:07:42,298 INFO 9969 [egg-security] use noopen middleware
+2019-02-26 00:07:42,299 INFO 9969 [egg-security] use nosniff middleware
+2019-02-26 00:07:42,299 INFO 9969 [egg-security] use xssProtection middleware
+2019-02-26 00:07:42,299 INFO 9969 [egg-security] use xframe middleware
+2019-02-26 00:07:42,300 INFO 9969 [egg-security] use dta middleware
+2019-02-26 00:07:42,300 INFO 9969 [egg-security] compose 7 middlewares into one security middleware
+2019-02-26 00:07:42,309 INFO 9969 [egg:core] dump config after load, 6ms
+2019-02-26 00:07:42,326 INFO 9969 [egg-watcher:application] watcher start success
+2019-02-26 00:07:42,333 INFO 9969 [egg:core] dump config after ready, 5ms
+2019-02-26 00:07:46,701 INFO 9976 [egg:logger] init all loggers with options: {"dir":"/Users/gui/Documents/code/github/egg-vue-hackernews/logs/egg-vue-hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-vue-hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-26 00:07:46,735 INFO 9976 [egg-multipart] stream mode enable
+2019-02-26 00:07:46,781 INFO 9976 [egg-static] starting static serve /public/ -> /Users/gui/Documents/code/github/egg-vue-hackernews/app/public
+2019-02-26 00:07:46,784 INFO 9976 [egg-security] use csrf middleware
+2019-02-26 00:07:46,785 INFO 9976 [egg-security] use methodnoallow middleware
+2019-02-26 00:07:46,785 INFO 9976 [egg-security] use noopen middleware
+2019-02-26 00:07:46,785 INFO 9976 [egg-security] use nosniff middleware
+2019-02-26 00:07:46,786 INFO 9976 [egg-security] use xssProtection middleware
+2019-02-26 00:07:46,786 INFO 9976 [egg-security] use xframe middleware
+2019-02-26 00:07:46,786 INFO 9976 [egg-security] use dta middleware
+2019-02-26 00:07:46,786 INFO 9976 [egg-security] compose 7 middlewares into one security middleware
+2019-02-26 00:07:46,795 INFO 9976 [egg:core] dump config after load, 5ms
+2019-02-26 00:07:46,806 INFO 9976 [egg-watcher:application] watcher start success
+2019-02-26 00:07:46,815 INFO 9976 [egg:core] dump config after ready, 5ms
+2019-02-26 00:08:03,650 INFO 9992 [egg:logger] init all loggers with options: {"dir":"/Users/gui/Documents/code/github/egg-vue-hackernews/logs/egg-vue-hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-vue-hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-02-26 00:08:03,706 INFO 9992 [egg-multipart] stream mode enable
+2019-02-26 00:08:03,831 INFO 9992 [egg-static] starting static serve /public/ -> /Users/gui/Documents/code/github/egg-vue-hackernews/app/public
+2019-02-26 00:08:03,837 INFO 9992 [egg-security] use csrf middleware
+2019-02-26 00:08:03,838 INFO 9992 [egg-security] use methodnoallow middleware
+2019-02-26 00:08:03,839 INFO 9992 [egg-security] use noopen middleware
+2019-02-26 00:08:03,841 INFO 9992 [egg-security] use nosniff middleware
+2019-02-26 00:08:03,842 INFO 9992 [egg-security] use xssProtection middleware
+2019-02-26 00:08:03,844 INFO 9992 [egg-security] use xframe middleware
+2019-02-26 00:08:03,844 INFO 9992 [egg-security] use dta middleware
+2019-02-26 00:08:03,844 INFO 9992 [egg-security] compose 7 middlewares into one security middleware
+2019-02-26 00:08:03,859 INFO 9992 [egg:core] dump config after load, 10ms
+2019-02-26 00:08:03,876 INFO 9992 [egg-watcher:application] watcher start success
+2019-02-26 00:08:03,886 INFO 9992 [egg:core] dump config after ready, 6ms

@@ -1,0 +1,20 @@
+2019-02-25 23:51:43,083 INFO 9722 [Timer] /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 496921ms at 2019-02-26 00:00:00.004
+2019-02-25 23:51:43,084 INFO 9722 [Timer] /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 497917ms at 2019-02-26 00:00:01.001
+2019-02-25 23:51:42,958 INFO 9727 [egg-schedule]: register schedule /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-02-25 23:51:42,958 INFO 9727 [egg-schedule]: register schedule /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-02-25 23:55:04,085 INFO 9763 [egg-schedule]: register schedule /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-02-25 23:55:04,085 INFO 9763 [egg-schedule]: register schedule /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-02-25 23:55:05,357 INFO 9770 [egg-schedule]: register schedule /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-02-25 23:55:05,357 INFO 9770 [egg-schedule]: register schedule /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-02-25 23:56:45,289 INFO 9797 [Timer] /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 194715ms at 2019-02-26 00:00:00.003
+2019-02-25 23:56:45,289 INFO 9797 [Timer] /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 195711ms at 2019-02-26 00:00:01.000
+2019-02-25 23:56:45,143 INFO 9802 [egg-schedule]: register schedule /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-02-25 23:56:45,143 INFO 9802 [egg-schedule]: register schedule /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-02-25 23:57:39,121 INFO 9834 [egg-schedule]: register schedule /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-02-25 23:57:39,121 INFO 9834 [egg-schedule]: register schedule /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-02-26 00:00:00,020 INFO 9797 [Timer] /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 86399985ms at 2019-02-27 00:00:00.005
+2019-02-26 00:00:00,016 INFO 9834 [Job#1551110400014129858875565121] /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2019-02-26 00:00:00,024 INFO 9834 [Job#1551110400014129858875565121] /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 7ms
+2019-02-26 00:00:01,007 INFO 9834 [Job#1551110401006129868794815111] /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2019-02-26 00:00:01,011 INFO 9834 [Job#1551110401006129868794815111] /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 4ms
+2019-02-26 00:00:01,009 INFO 9797 [Timer] /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 86399994ms at 2019-02-27 00:00:01.003

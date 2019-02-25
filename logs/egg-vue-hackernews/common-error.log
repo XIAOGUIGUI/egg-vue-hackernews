@@ -1,0 +1,96 @@
+2019-02-26 00:01:09,184 ERROR 9879 [-/127.0.0.1/-/16ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find viewEngine for /Users/gui/Documents/code/github/egg-vue-hackernews/app/view/vue-ssr-server-bundle.json
+    at ContextView.[contextView#render] (/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-view/lib/context_view.js:66:5)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 9879
+hostname: guideMBP.lan
+
+2019-02-26 00:01:10,603 ERROR 9879 [-/127.0.0.1/-/2ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find viewEngine for /Users/gui/Documents/code/github/egg-vue-hackernews/app/view/vue-ssr-server-bundle.json
+    at ContextView.[contextView#render] (/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-view/lib/context_view.js:66:5)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 9879
+hostname: guideMBP.lan
+
+2019-02-26 00:01:29,525 ERROR 9896 [-/127.0.0.1/-/10ms GET /] nodejs.TypeError: this.render is not a function
+    at HomeController.index (/Users/gui/Documents/code/github/egg-vue-hackernews/app/controller/home.js:8:16)
+    at Object.callFn (/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/koa-compose/index.js:45:18)
+    at /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/koa-compose/index.js:44:32)
+    at /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/koa-compose/index.js:36:12
+
+pid: 9896
+hostname: guideMBP.lan
+
+2019-02-26 00:02:26,063 ERROR 9917 [-/127.0.0.1/-/14ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find viewEngine for /Users/gui/Documents/code/github/egg-vue-hackernews/app/view/vue-ssr-server-bundle.json
+    at ContextView.[contextView#render] (/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-view/lib/context_view.js:66:5)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 9917
+hostname: guideMBP.lan
+
+2019-02-26 00:07:53,028 ERROR 9976 [-/127.0.0.1/-/11ms GET /] nodejs.TypeError: Cannot read property 'render' of undefined
+    at HomeController.index (/Users/gui/Documents/code/github/egg-vue-hackernews/app/controller/home.js:8:20)
+    at Object.callFn (/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/koa-compose/index.js:45:18)
+    at /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/koa-compose/index.js:44:32)
+    at /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/koa-compose/index.js:36:12
+
+pid: 9976
+hostname: guideMBP.lan
+
+2019-02-26 00:07:55,057 ERROR 9976 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: Cannot read property 'render' of undefined
+    at HomeController.index (/Users/gui/Documents/code/github/egg-vue-hackernews/app/controller/home.js:8:20)
+    at Object.callFn (/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/koa-compose/index.js:45:18)
+    at /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/koa-compose/index.js:44:32)
+    at /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/koa-compose/index.js:36:12
+
+pid: 9976
+hostname: guideMBP.lan
+
+2019-02-26 00:08:05,606 ERROR 9992 [-/127.0.0.1/-/14ms GET /] nodejs.ReferenceError: vue is not defined
+    at Object.<anonymous> (__vue_ssr_bundle__:1:63)
+    at evaluateModule (/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/vue-server-renderer/build.dev.js:9269:21)
+    at /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/vue-server-renderer/build.dev.js:9327:18
+    at new Promise (<anonymous>)
+    at /Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/vue-server-renderer/build.dev.js:9319:14
+    at Object.renderToString (/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/vue-server-renderer/build.dev.js:9495:9)
+    at Promise (/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-view-vue-ssr/lib/engine.js:123:62)
+    at new Promise (<anonymous>)
+    at Engine.render (/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-view-vue-ssr/lib/engine.js:122:12)
+    at HomeController.index (/Users/gui/Documents/code/github/egg-vue-hackernews/app/controller/home.js:8:24)
+name: "ReferenceError"
+pid: 9992
+hostname: guideMBP.lan
+

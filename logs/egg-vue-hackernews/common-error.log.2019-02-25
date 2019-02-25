@@ -1,0 +1,72 @@
+2019-02-25 23:51:49,925 ERROR 9727 [-/127.0.0.1/-/17ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find viewEngine for /Users/gui/Documents/code/github/egg-vue-hackernews/app/view/vue-ssr-server-bundle.json
+    at ContextView.[contextView#render] (/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-view/lib/context_view.js:66:5)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 9727
+hostname: guideMBP.lan
+
+2019-02-25 23:55:13,390 ERROR 9770 [-/127.0.0.1/-/13ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find viewEngine for /Users/gui/Documents/code/github/egg-vue-hackernews/app/view/vue-ssr-server-bundle.json
+    at ContextView.[contextView#render] (/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-view/lib/context_view.js:66:5)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 9770
+hostname: guideMBP.lan
+
+2019-02-25 23:55:14,850 ERROR 9770 [-/127.0.0.1/-/2ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find viewEngine for /Users/gui/Documents/code/github/egg-vue-hackernews/app/view/vue-ssr-server-bundle.json
+    at ContextView.[contextView#render] (/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-view/lib/context_view.js:66:5)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 9770
+hostname: guideMBP.lan
+
+2019-02-25 23:56:51,172 ERROR 9802 [-/127.0.0.1/-/9ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find viewEngine for /Users/gui/Documents/code/github/egg-vue-hackernews/app/view/vue-ssr-server-bundle.json
+    at ContextView.[contextView#render] (/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-view/lib/context_view.js:66:5)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 9802
+hostname: guideMBP.lan
+
+2019-02-25 23:56:53,033 ERROR 9802 [-/127.0.0.1/-/1ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find viewEngine for /Users/gui/Documents/code/github/egg-vue-hackernews/app/view/vue-ssr-server-bundle.json
+    at ContextView.[contextView#render] (/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-view/lib/context_view.js:66:5)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 9802
+hostname: guideMBP.lan
+
+2019-02-25 23:57:45,982 ERROR 9834 [-/127.0.0.1/-/11ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find viewEngine for /Users/gui/Documents/code/github/egg-vue-hackernews/app/view/vue-ssr-server-bundle.json
+    at ContextView.[contextView#render] (/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-view/lib/context_view.js:66:5)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 9834
+hostname: guideMBP.lan
+
