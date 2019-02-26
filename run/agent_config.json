@@ -73,7 +73,7 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-onerror/lib/onerror_page.mustache"
+      "templatePath": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
@@ -85,14 +85,14 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-watcher/lib/event-sources/default",
-        "development": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-watcher/lib/event-sources/development"
+        "default": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-watcher\\lib\\event-sources\\development"
       }
     },
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "/Users/gui/Documents/code/github/egg-vue-hackernews/logs/egg-vue-hackernews/egg-schedule.log"
+        "file": "D:\\github\\egg-vue-hackernews\\logs\\egg-vue-hackernews\\egg-schedule.log"
       }
     },
     "schedule": {
@@ -109,7 +109,7 @@
       "files": 10,
       "fileExtensions": [],
       "whitelist": null,
-      "tmpdir": "/var/folders/v4/80q3ydx93976d_vf9_nzwrsr0000gn/T/egg-multipart-tmp/egg-vue-hackernews",
+      "tmpdir": "C:\\Users\\CHENRO\\x7e1\\AppData\\Local\\Temp\\egg-multipart-tmp\\egg-vue-hackernews",
       "cleanSchedule": {
         "cron": "0 30 4 * * *"
       }
@@ -132,25 +132,26 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/gui/Documents/code/github/egg-vue-hackernews/app/public",
+      "dir": "D:\\github\\egg-vue-hackernews\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "/Users/gui/Documents/code/github/egg-vue-hackernews/app/view",
+      "root": "D:\\github\\egg-vue-hackernews\\app\\view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
       "mapping": {
-        ".js": "vue"
+        ".js": "vue",
+        ".json": "vue"
       }
     },
     "vuessr": {
       "doctype": "<!doctype html>",
-      "layout": "/Users/gui/Documents/code/github/egg-vue-hackernews/app/view/layout.html",
-      "manifest": "/Users/gui/Documents/code/github/egg-vue-hackernews/config/vue-ssr-client-manifest.json",
+      "layout": "D:\\github\\egg-vue-hackernews\\app\\view\\layout.html",
+      "manifest": "D:\\github\\egg-vue-hackernews\\config\\manifest.json",
       "injectHeadRegex": "/(<\\/head>)/i",
       "injectBodyRegex": "/(<\\/body>)/i",
       "injectCss": false,
@@ -165,7 +166,7 @@
         "maxAge": 604800000
       },
       "renderOptions": {
-        "runInNewContext": "once"
+        "runInNewContext": false
       },
       "afterRender": "<Function afterRender>"
     },
@@ -188,6 +189,8 @@
         "egg": "^2.15.1",
         "egg-scripts": "^2.11.0",
         "egg-view-vue-ssr": "^3.3.0",
+        "egg-view-vuejs": "^1.0.0",
+        "firebase": "^5.8.4",
         "production": "0.0.2",
         "vue": "^2.5.13",
         "vue-router": "^3.0.1",
@@ -229,9 +232,9 @@
       "author": "",
       "license": "MIT"
     },
-    "baseDir": "/Users/gui/Documents/code/github/egg-vue-hackernews",
-    "HOME": "/Users/gui",
-    "rundir": "/Users/gui/Documents/code/github/egg-vue-hackernews/run",
+    "baseDir": "D:\\github\\egg-vue-hackernews",
+    "HOME": "C:\\Users\\chenronggui",
+    "rundir": "D:\\github\\egg-vue-hackernews\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -261,7 +264,7 @@
       }
     },
     "logger": {
-      "dir": "/Users/gui/Documents/code/github/egg-vue-hackernews/logs/egg-vue-hackernews",
+      "dir": "D:\\github\\egg-vue-hackernews\\logs\\egg-vue-hackernews",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -325,6 +328,14 @@
     },
     "onClientError": null,
     "middleware": [],
+    "vue": {
+      "cache": true,
+      "rendererOption": {
+        "template": "D:\\github\\egg-vue-hackernews\\app\\view\\layout.html",
+        "clientManifest": "D:\\github\\egg-vue-hackernews\\config\\vue-ssr-client-manifest.json",
+        "runInNewContext": false
+      }
+    },
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": "~config~middleware",
     "appMiddleware": "~config~middleware"
@@ -337,8 +348,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/plugin.js",
-      "path": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-session",
+      "from": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -350,8 +361,8 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/plugin.js",
-      "path": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-security",
+      "from": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-security",
       "version": "2.4.3"
     },
     "jsonp": {
@@ -363,8 +374,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/plugin.js",
-      "path": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-jsonp",
+      "from": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -376,8 +387,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/plugin.js",
-      "path": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-onerror",
+      "from": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -387,8 +398,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/plugin.js",
-      "path": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-i18n",
+      "from": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-i18n",
       "version": "2.0.0"
     },
     "watcher": {
@@ -398,8 +409,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/plugin.js",
-      "path": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-watcher",
+      "from": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-watcher",
       "version": "3.1.0"
     },
     "schedule": {
@@ -409,8 +420,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/plugin.js",
-      "path": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-schedule",
+      "from": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-schedule",
       "version": "3.6.0"
     },
     "multipart": {
@@ -422,8 +433,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/plugin.js",
-      "path": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-multipart",
+      "from": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-multipart",
       "version": "2.4.0"
     },
     "development": {
@@ -437,8 +448,8 @@
       "env": [
         "local"
       ],
-      "from": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/plugin.js",
-      "path": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-development",
+      "from": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-development",
       "version": "2.4.2"
     },
     "logrotator": {
@@ -450,8 +461,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/plugin.js",
-      "path": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator",
+      "from": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-logrotator",
       "version": "3.0.5"
     },
     "static": {
@@ -461,8 +472,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/plugin.js",
-      "path": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-static",
+      "from": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-static",
       "version": "2.2.0"
     },
     "view": {
@@ -472,20 +483,27 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/plugin.js",
-      "path": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-view",
+      "from": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-view",
       "version": "2.1.2"
+    },
+    "ua": {
+      "enable": true,
+      "path": "D:\\github\\egg-vue-hackernews\\app\\lib\\plugin\\egg-ua",
+      "name": "ua",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "D:\\github\\egg-vue-hackernews\\config\\plugin.js"
     },
     "vuessr": {
       "enable": true,
-      "package": "egg-view-vue-ssr",
+      "path": "D:\\github\\egg-vue-hackernews\\app\\lib\\plugin\\egg-view-vuessr",
       "name": "vuessr",
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/gui/Documents/code/github/egg-vue-hackernews/config/plugin.js",
-      "path": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-view-vue-ssr",
-      "version": "3.3.0"
+      "from": "D:\\github\\egg-vue-hackernews\\config\\plugin.js"
     }
   }
 }

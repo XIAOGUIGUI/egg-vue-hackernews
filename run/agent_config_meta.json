@@ -1,316 +1,327 @@
 {
-  "keys": "/Users/gui/Documents/code/github/egg-vue-hackernews/config/config.default.js",
-  "middleware": "/Users/gui/Documents/code/github/egg-vue-hackernews/config/config.default.js",
-  "vuessr": {
-    "layout": "/Users/gui/Documents/code/github/egg-vue-hackernews/config/config.default.js",
-    "manifest": "/Users/gui/Documents/code/github/egg-vue-hackernews/config/config.default.js",
-    "doctype": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-view-vue-ssr/config/config.default.js",
-    "injectHeadRegex": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-view-vue-ssr/config/config.default.js",
-    "injectBodyRegex": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-view-vue-ssr/config/config.default.js",
-    "injectCss": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-view-vue-ssr/config/config.local.js",
-    "injectJs": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-view-vue-ssr/config/config.default.js",
-    "injectRes": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-view-vue-ssr/config/config.default.js",
-    "crossorigin": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-view-vue-ssr/config/config.default.js",
-    "mergeLocals": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-view-vue-ssr/config/config.default.js",
-    "fallbackToClient": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-view-vue-ssr/config/config.default.js",
-    "viewEngine": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-view-vue-ssr/config/config.default.js",
-    "cache": {
-      "max": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-view-vue-ssr/config/config.default.js",
-      "maxAge": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-view-vue-ssr/config/config.default.js"
-    },
-    "renderOptions": {
-      "runInNewContext": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-view-vue-ssr/config/config.default.js"
-    },
-    "afterRender": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-view-vue-ssr/config/config.default.js"
+  "keys": "D:\\github\\egg-vue-hackernews\\config\\config.default.js",
+  "static": {
+    "prefix": "D:\\github\\egg-vue-hackernews\\config\\config.default.js",
+    "dir": "D:\\github\\egg-vue-hackernews\\config\\config.default.js",
+    "dynamic": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "middleware": "D:\\github\\egg-vue-hackernews\\config\\config.default.js",
+  "vue": {
+    "cache": "D:\\github\\egg-vue-hackernews\\config\\config.default.js",
+    "rendererOption": {
+      "template": "D:\\github\\egg-vue-hackernews\\config\\config.default.js",
+      "clientManifest": "D:\\github\\egg-vue-hackernews\\config\\config.default.js",
+      "runInNewContext": "D:\\github\\egg-vue-hackernews\\config\\config.default.js"
+    }
   },
   "session": {
-    "maxAge": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-session/config/config.default.js",
-    "key": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-session/config/config.default.js",
-    "httpOnly": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-session/config/config.default.js",
-    "encrypt": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-session/config/config.default.js"
+    "maxAge": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-session\\config\\config.default.js"
   },
   "security": {
-    "domainWhiteList": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-security/config/config.default.js",
-    "protocolWhiteList": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-security/config/config.default.js",
-    "defaultMiddleware": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-security/config/config.default.js",
+    "domainWhiteList": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-security\\config\\config.default.js",
     "csrf": {
-      "enable": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-security/config/config.default.js",
-      "useSession": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-security/config/config.default.js",
-      "ignoreJSON": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-security/config/config.default.js",
-      "cookieName": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-security/config/config.default.js",
-      "sessionName": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-security/config/config.default.js",
-      "headerName": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-security/config/config.default.js",
-      "bodyName": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-security/config/config.default.js",
-      "queryName": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-security/config/config.default.js"
+      "enable": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-security\\config\\config.default.js"
     },
     "xframe": {
-      "enable": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-security/config/config.default.js",
-      "value": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-security/config/config.default.js"
+      "enable": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-security\\config\\config.default.js"
     },
     "hsts": {
-      "enable": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-security/config/config.local.js",
-      "maxAge": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-security/config/config.default.js",
-      "includeSubdomains": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-security/config/config.default.js"
+      "enable": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-security\\config\\config.default.js"
     },
     "dta": {
-      "enable": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-security/config/config.default.js"
+      "enable": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-security\\config\\config.default.js"
     },
     "methodnoallow": {
-      "enable": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-security/config/config.default.js"
+      "enable": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-security\\config\\config.default.js"
     },
     "noopen": {
-      "enable": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-security/config/config.default.js"
+      "enable": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-security\\config\\config.default.js"
     },
     "nosniff": {
-      "enable": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-security/config/config.default.js"
+      "enable": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-security\\config\\config.default.js"
     },
     "referrerPolicy": {
-      "enable": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-security/config/config.default.js",
-      "value": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-security/config/config.default.js"
+      "enable": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-security\\config\\config.default.js"
     },
     "xssProtection": {
-      "enable": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-security/config/config.default.js",
-      "value": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-security/config/config.default.js"
+      "enable": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-security\\config\\config.default.js"
     },
     "csp": {
-      "enable": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-security/config/config.default.js",
-      "policy": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-security/config/config.default.js"
+      "enable": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-security\\config\\config.default.js"
     },
     "ssrf": {
-      "ipBlackList": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-security/config/config.default.js",
-      "checkAddress": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-security/config/config.default.js"
+      "ipBlackList": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-security\\config\\config.default.js"
     }
   },
   "helper": {
-    "shtml": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-security/config/config.default.js"
+    "shtml": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-security\\config\\config.default.js"
   },
   "jsonp": {
-    "limit": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-jsonp/config/config.default.js",
-    "callback": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-jsonp/config/config.default.js",
-    "csrf": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-jsonp/config/config.default.js"
+    "limit": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-jsonp\\config\\config.default.js"
   },
   "onerror": {
-    "errorPageUrl": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-onerror/config/config.default.js",
-    "appErrorFilter": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-onerror/config/config.default.js",
-    "templatePath": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-onerror/config/config.default.js"
+    "errorPageUrl": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-onerror\\config\\config.default.js"
   },
   "i18n": {
-    "defaultLocale": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-i18n/config/config.default.js",
-    "dirs": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-i18n/config/config.default.js",
-    "queryField": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-i18n/config/config.default.js",
-    "cookieField": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-i18n/config/config.default.js",
-    "cookieMaxAge": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-i18n/config/config.default.js"
+    "defaultLocale": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-i18n\\config\\config.default.js"
   },
   "watcher": {
-    "type": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-watcher/config/config.local.js",
+    "type": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-watcher\\config\\config.local.js",
     "eventSources": {
-      "default": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-watcher/config/config.default.js",
-      "development": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-watcher/config/config.default.js"
+      "default": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-watcher\\config\\config.default.js"
     }
   },
   "customLogger": {
     "scheduleLogger": {
-      "consoleLevel": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-schedule/config/config.default.js",
-      "file": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-schedule/config/config.default.js"
+      "consoleLevel": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-schedule\\config\\config.default.js"
     }
   },
   "schedule": {
-    "directory": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-schedule/config/config.default.js"
+    "directory": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-schedule\\config\\config.default.js"
   },
   "multipart": {
-    "mode": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-multipart/config/config.default.js",
-    "autoFields": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-multipart/config/config.default.js",
-    "defaultCharset": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-multipart/config/config.default.js",
-    "fieldNameSize": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-multipart/config/config.default.js",
-    "fieldSize": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-multipart/config/config.default.js",
-    "fields": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-multipart/config/config.default.js",
-    "fileSize": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-multipart/config/config.default.js",
-    "files": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-multipart/config/config.default.js",
-    "fileExtensions": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-multipart/config/config.default.js",
-    "whitelist": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-multipart/config/config.default.js",
-    "tmpdir": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-multipart/config/config.default.js",
+    "mode": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-multipart\\config\\config.default.js",
     "cleanSchedule": {
-      "cron": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-multipart/config/config.default.js"
+      "cron": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-multipart\\config\\config.default.js"
     }
   },
   "development": {
-    "watchDirs": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-development/config/config.default.js",
-    "ignoreDirs": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-development/config/config.default.js",
-    "fastReady": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-development/config/config.default.js",
-    "reloadOnDebug": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-development/config/config.default.js",
-    "overrideDefault": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-development/config/config.default.js"
+    "watchDirs": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-development\\config\\config.default.js"
   },
   "logrotator": {
-    "filesRotateByHour": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator/config/config.default.js",
-    "hourDelimiter": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator/config/config.default.js",
-    "filesRotateBySize": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator/config/config.default.js",
-    "maxFileSize": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator/config/config.default.js",
-    "maxFiles": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator/config/config.default.js",
-    "rotateDuration": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator/config/config.default.js",
-    "maxDays": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-logrotator/config/config.default.js"
-  },
-  "static": {
-    "prefix": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-static/config/config.default.js",
-    "dir": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-static/config/config.default.js",
-    "dynamic": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-static/config/config.default.js",
-    "preload": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-static/config/config.default.js",
-    "buffer": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-static/config/config.default.js",
-    "maxFiles": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-static/config/config.default.js"
+    "filesRotateByHour": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-logrotator\\config\\config.default.js"
   },
   "view": {
-    "root": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-view/config/config.default.js",
-    "cache": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-view/config/config.local.js",
-    "defaultExtension": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-view/config/config.default.js",
-    "defaultViewEngine": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-view/config/config.default.js",
+    "root": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-view\\config\\config.default.js",
     "mapping": {
-      ".js": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg-view-vue-ssr/config/config.default.js"
+      ".js": "D:\\github\\egg-vue-hackernews\\app\\lib\\plugin\\egg-view-vuessr\\config\\config.default.js",
+      ".json": "D:\\github\\egg-vue-hackernews\\app\\lib\\plugin\\egg-view-vuessr\\config\\config.default.js"
     }
   },
-  "env": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-  "name": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-  "proxy": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-  "protocolHeaders": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-  "ipHeaders": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-  "hostHeaders": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
+  "vuessr": {
+    "doctype": "D:\\github\\egg-vue-hackernews\\app\\lib\\plugin\\egg-view-vuessr\\config\\config.default.js",
+    "layout": "D:\\github\\egg-vue-hackernews\\app\\lib\\plugin\\egg-view-vuessr\\config\\config.default.js",
+    "manifest": "D:\\github\\egg-vue-hackernews\\app\\lib\\plugin\\egg-view-vuessr\\config\\config.default.js",
+    "injectHeadRegex": "D:\\github\\egg-vue-hackernews\\app\\lib\\plugin\\egg-view-vuessr\\config\\config.default.js",
+    "injectBodyRegex": "D:\\github\\egg-vue-hackernews\\app\\lib\\plugin\\egg-view-vuessr\\config\\config.default.js",
+    "injectCss": "D:\\github\\egg-vue-hackernews\\app\\lib\\plugin\\egg-view-vuessr\\config\\config.local.js",
+    "injectJs": "D:\\github\\egg-vue-hackernews\\app\\lib\\plugin\\egg-view-vuessr\\config\\config.default.js",
+    "injectRes": "D:\\github\\egg-vue-hackernews\\app\\lib\\plugin\\egg-view-vuessr\\config\\config.default.js",
+    "crossorigin": "D:\\github\\egg-vue-hackernews\\app\\lib\\plugin\\egg-view-vuessr\\config\\config.default.js",
+    "mergeLocals": "D:\\github\\egg-vue-hackernews\\app\\lib\\plugin\\egg-view-vuessr\\config\\config.default.js",
+    "fallbackToClient": "D:\\github\\egg-vue-hackernews\\app\\lib\\plugin\\egg-view-vuessr\\config\\config.default.js",
+    "viewEngine": "D:\\github\\egg-vue-hackernews\\app\\lib\\plugin\\egg-view-vuessr\\config\\config.default.js",
+    "cache": {
+      "max": "D:\\github\\egg-vue-hackernews\\app\\lib\\plugin\\egg-view-vuessr\\config\\config.default.js",
+      "maxAge": "D:\\github\\egg-vue-hackernews\\app\\lib\\plugin\\egg-view-vuessr\\config\\config.default.js"
+    },
+    "renderOptions": {
+      "runInNewContext": "D:\\github\\egg-vue-hackernews\\app\\lib\\plugin\\egg-view-vuessr\\config\\config.default.js"
+    },
+    "afterRender": "D:\\github\\egg-vue-hackernews\\app\\lib\\plugin\\egg-view-vuessr\\config\\config.default.js"
+  },
+  "env": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+  "name": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
   "pkg": {
-    "name": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-    "version": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-    "description": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-    "private": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
+    "name": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+    "version": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+    "description": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+    "private": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
     "egg": {
-      "declarations": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js"
+      "declarations": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js"
     },
     "dependencies": {
-      "egg": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-      "egg-scripts": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-      "egg-view-vue-ssr": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-      "production": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-      "vue": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-      "vue-router": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-      "vuex": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-      "vuex-router-sync": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js"
+      "egg": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-vue-ssr": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-vuejs": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+      "firebase": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+      "production": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+      "vue": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+      "vue-router": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+      "vuex": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+      "vuex-router-sync": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {
-      "autod": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-      "autod-egg": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-      "egg-bin": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-      "egg-ci": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-      "egg-mock": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-      "eslint": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-      "eslint-config-egg": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-      "webstorm-disable-index": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js"
+      "autod": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+      "autod-egg": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+      "egg-bin": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+      "egg-ci": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+      "egg-mock": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+      "eslint": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+      "eslint-config-egg": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+      "webstorm-disable-index": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js"
     },
     "engines": {
-      "node": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js"
+      "node": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js"
     },
     "scripts": {
-      "start": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-      "stop": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-      "dev": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-      "debug": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-      "test": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-      "test-local": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-      "cov": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-      "lint": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-      "ci": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-      "autod": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js"
+      "start": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+      "stop": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+      "dev": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+      "debug": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+      "test": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+      "test-local": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+      "cov": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+      "lint": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+      "ci": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+      "autod": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js"
     },
     "ci": {
-      "version": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js"
+      "version": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js"
     },
     "repository": {
-      "type": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-      "url": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js"
+      "type": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+      "url": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js"
     },
-    "author": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-    "license": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js"
+    "author": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+    "license": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js"
   },
-  "baseDir": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-  "HOME": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-  "rundir": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
+  "baseDir": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
   "dump": {
-    "ignore": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js"
+    "ignore": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-    "notFound": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-    "sitefile": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-    "middlewares": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-    "httpClient": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js"
+    "bodyparser": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js"
   },
   "notfound": {
-    "pageUrl": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js"
+    "pageUrl": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js"
+    "/favicon.ico": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js"
   },
   "bodyParser": {
-    "enable": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-    "encoding": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-    "formLimit": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-    "jsonLimit": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-    "strict": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
+    "enable": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+    "strict": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
     "queryString": {
-      "arrayLimit": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-      "depth": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-      "parameterLimit": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js"
+      "arrayLimit": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+      "depth": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "logger": {
-    "dir": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-    "encoding": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-    "env": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-    "level": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-    "consoleLevel": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-    "disableConsoleAfterReady": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-    "outputJSON": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-    "buffer": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-    "appLogName": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-    "coreLogName": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-    "agentLogName": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-    "errorLogName": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
+    "dir": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+    "env": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+    "level": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
     "coreLogger": {
-      "consoleLevel": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.local.js"
+      "consoleLevel": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.local.js"
     },
-    "allowDebugAtProd": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js"
+    "allowDebugAtProd": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js"
   },
   "httpclient": {
-    "enableDNSCache": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-    "dnsCacheLookupInterval": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-    "dnsCacheMaxLength": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
+    "enableDNSCache": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
     "request": {
-      "timeout": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js"
+      "timeout": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-      "freeSocketTimeout": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-      "maxSockets": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-      "maxFreeSockets": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js"
+      "keepAlive": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-      "freeSocketTimeout": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-      "maxSockets": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-      "maxFreeSockets": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js"
+      "keepAlive": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "meta": {
-    "enable": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-    "logging": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js"
+    "enable": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+    "logging": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js"
   },
-  "coreMiddleware": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-  "workerStartTimeout": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-  "serverTimeout": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
+  "coreMiddleware": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
   "cluster": {
     "listen": {
-      "path": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-      "port": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-      "hostname": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js"
+      "path": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+      "port": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "clusterClient": {
-    "maxWaitTime": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js",
-    "responseTimeout": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js"
+    "maxWaitTime": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js"
   },
-  "onClientError": "/Users/gui/Documents/code/github/egg-vue-hackernews/node_modules/egg/config/config.default.js"
+  "onClientError": "D:\\github\\egg-vue-hackernews\\node_modules\\egg\\config\\config.default.js"
 }

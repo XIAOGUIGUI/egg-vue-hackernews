@@ -6,8 +6,10 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/",
-    "regexp": "/^(?:\\/(?=$))?$/",
+    "path": {
+      "keys": []
+    },
+    "regexp": "/^(?!\\/api)(?!\\/public)/",
     "stack": [
       "wrappedController"
     ]

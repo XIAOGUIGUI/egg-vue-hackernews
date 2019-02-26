@@ -24,17 +24,17 @@ module.exports = appInfo => {
     // myAppName: 'egg',
   };
 
-  const vuessr = {
-    layout: path.join(appInfo.baseDir, 'app/view/layout.html'),
-    manifest: path.join(appInfo.baseDir, 'config/vue-ssr-client-manifest.json'),
-    renderOptions: {
-      basedir: path.join(appInfo.baseDir, 'app/view'),
+  config.vue = {
+    cache: true,
+    rendererOption: {
+      template: path.join(appInfo.baseDir, 'app/view/layout.html'),
+      clientManifest: path.join(appInfo.baseDir, 'config/vue-ssr-client-manifest.json'),
+      runInNewContext: false
     }
    };
 
   return {
     ...config,
-    ...userConfig,
-    ...vuessr
+    ...userConfig
   };
 };

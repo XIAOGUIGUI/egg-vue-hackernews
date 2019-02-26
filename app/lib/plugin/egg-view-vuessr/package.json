@@ -1,0 +1,26 @@
+{
+  "name": "egg-view-vue-ssr",
+  "eggPlugin": {
+  "name": "vuessr"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "files": [
+    "index.js",
+    "app.js",
+    "agent.js",
+    "config",
+    "app",
+    "lib"
+  ],
+  "homepage": "https://github.com/XIAOGUIGUI/egg-view-vuessr#readme",
+  "keywords": [
+    "egg",
+    "eggPlugin",
+    "egg-view",
+    "vue",
+    "ssr"
+  ],
+  "license": "MIT"
+}

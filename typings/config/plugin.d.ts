@@ -2,4 +2,4 @@
 // Do not modify this file!!!!!!!!!
 
 import 'egg';
-import 'egg-view-vue-ssr';
+import 'egg-view-vuejs';

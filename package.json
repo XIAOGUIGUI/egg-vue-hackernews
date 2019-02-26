@@ -10,6 +10,8 @@
     "egg": "^2.15.1",
     "egg-scripts": "^2.11.0",
     "egg-view-vue-ssr": "^3.3.0",
+    "egg-view-vuejs": "^1.0.0",
+    "firebase": "^5.8.4",
     "production": "0.0.2",
     "vue": "^2.5.13",
     "vue-router": "^3.0.1",
