@@ -15,22 +15,15 @@ class View {
    * @param {Object} options custom params
    * @return {Object} Promise
    */
-    render(name, locals, options = {}) {
-    // locals = this.app.vue.normalizeLocals(this.ctx, locals, options);
-    // console.log(locals)
-    // const context = { state: locals };
-    const context = {
-      title: 'Vue HN 2.0',
-      url: this.ctx.request.url
-    }
+  render(name, locals, options = {}) {
+    locals = this.app.vue.normalizeLocals(this.ctx, locals, options);
+    const context = Object.assign({}, { state: locals }, options.context ? options.context : {})
     return this.app.vue.render(name, context, options).then(html => {
       return html
     }).catch(err => {
-      console.log(err)
       if (this.config.fallbackToClient) {
         this.app.logger.error('[%s] server render bundle error, try client render, the server render error', name, err);
-        // return this.app.vue.renderClient(options.name, locals, options);
-        return '渲染失败'
+        return this.app.vue.renderClient(options.name, locals, options);
       }
       throw err;
     });

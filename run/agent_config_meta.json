@@ -1,13 +1,5 @@
 {
   "keys": "D:\\github\\egg-vue-hackernews\\config\\config.default.js",
-  "static": {
-    "prefix": "D:\\github\\egg-vue-hackernews\\config\\config.default.js",
-    "dir": "D:\\github\\egg-vue-hackernews\\config\\config.default.js",
-    "dynamic": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-static\\config\\config.default.js",
-    "preload": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-static\\config\\config.default.js",
-    "buffer": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-static\\config\\config.default.js",
-    "maxFiles": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-static\\config\\config.default.js"
-  },
   "middleware": "D:\\github\\egg-vue-hackernews\\config\\config.default.js",
   "vue": {
     "cache": "D:\\github\\egg-vue-hackernews\\config\\config.default.js",
@@ -142,6 +134,14 @@
     "maxFiles": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-logrotator\\config\\config.default.js",
     "rotateDuration": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-logrotator\\config\\config.default.js",
     "maxDays": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-static\\config\\config.default.js"
   },
   "view": {
     "root": "D:\\github\\egg-vue-hackernews\\node_modules\\egg-view\\config\\config.default.js",

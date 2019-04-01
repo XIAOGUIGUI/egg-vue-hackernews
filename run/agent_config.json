@@ -132,7 +132,7 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "D:\\github\\egg-vue-hackernews\\public",
+      "dir": "D:\\github\\egg-vue-hackernews\\app\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,

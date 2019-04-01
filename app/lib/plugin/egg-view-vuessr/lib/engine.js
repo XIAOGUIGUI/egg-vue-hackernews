@@ -87,6 +87,7 @@ class Engine {
     [ 'ctx', 'request', 'helper' ].forEach(key => {
       Object.defineProperty(locals, key, { enumerable: false });
     });
+
     return locals;
   }
 
@@ -114,13 +115,40 @@ class Engine {
     const template = this.getTemplate(options);
     return new Promise((resolve, reject) => {
       this.createBundleRenderer(name, template, options.renderOptions).renderToString(context, (err, html) => {
-        console.log('ddd')
         if (err) {
           reject(err);
         } else {
           resolve(html);
         }
       });
+    });
+  }
+
+  renderString(tpl, locals, options) {
+    const vConfig = Object.assign({ template: tpl, data: locals }, options);
+    const vm = new Vue(vConfig);
+    return new Promise((resolve, reject) => {
+      this.renderer.renderToString(vm, (err, html) => {
+        if (err) {
+          reject(err);
+        } else {
+          resolve(html);
+        }
+      });
+    });
+  }
+
+  renderClient(name, locals, options = {}) {
+    const template = this.getTemplate(options);
+    // 不进行Vue layout数据绑定编译
+    if (options.viewEngine === null) {
+      const html = this.resource ? this.resource.inject(template, name, locals, options) : template;
+      return Promise.resolve(html);
+    }
+    options.viewEngine = 'vue';
+    return this.renderString(template, locals, options).then(html => {
+      console.log(html)
+      return this.resource ? this.resource.inject(html, name, locals, options) : html;
     });
   }
 }

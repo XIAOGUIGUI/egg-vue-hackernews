@@ -1,96 +1,122 @@
 {
   "publicPath": "/public/",
   "all": [
-    "0.9c0ba9cac9fa457256ae.js",
-    "vendor.8d24873f08a674b6eb50.js",
-    "app.8d17b5d7fc6dddc7388f.js",
-    "manifest.8e4c67f3abff6dc5d17d.js",
-    "common.8d17b5d7fc6dddc7388f.css"
+    "0.72eb6d39e981354a6553.js",
+    "1.2ba7de355a5bd48e9e0a.js",
+    "vendor.6ef769ccc7efb0594025.js",
+    "app.fc2d181e7338e8f00b60.js",
+    "manifest.74fc280e36e1a02a2323.js",
+    "common.fc2d181e7338e8f00b60.css"
   ],
   "initial": [
-    "manifest.8e4c67f3abff6dc5d17d.js",
-    "vendor.8d24873f08a674b6eb50.js",
-    "app.8d17b5d7fc6dddc7388f.js",
-    "common.8d17b5d7fc6dddc7388f.css"
+    "manifest.74fc280e36e1a02a2323.js",
+    "vendor.6ef769ccc7efb0594025.js",
+    "app.fc2d181e7338e8f00b60.js",
+    "common.fc2d181e7338e8f00b60.css"
   ],
   "async": [
-    "0.9c0ba9cac9fa457256ae.js"
+    "0.72eb6d39e981354a6553.js",
+    "1.2ba7de355a5bd48e9e0a.js"
   ],
   "modules": {
     "a9dceaae": [
-      1
+      2
     ],
     "8178d4a2": [
-      1
+      2
     ],
     "210e7665": [
-      1
+      2
     ],
     "5d66caad": [
-      2,
-      4
+      3,
+      5
     ],
     "64f93ae6": [
-      2,
-      4
+      3,
+      5
     ],
     "2e0e2544": [
-      2,
-      4
+      3,
+      5
     ],
     "4cbc2f30": [
-      1
+      2
     ],
     "244b0f88": [
-      1
+      2
     ],
     "ea44d16e": [
-      1
+      2
     ],
     "bb7c2d56": [
-      1
+      2
     ],
     "85829cf8": [
-      1
+      2
     ],
     "612d257c": [
-      2,
-      4
+      3,
+      5
     ],
     "4751cb0d": [
-      2,
-      4
+      3,
+      5
     ],
     "139cfb0a": [
-      1
+      2
     ],
     "7ac95802": [
-      1
+      2
     ],
     "09a465a0": [
-      1
+      2
     ],
     "a25482f4": [
-      2,
-      4
+      3,
+      5
     ],
     "5c73c313": [
-      1
+      2
     ],
     "44989d99": [
-      1
+      2
     ],
     "6e593b00": [
+      1
+    ],
+    "7abfdc3f": [
       0
     ],
     "1eb333c0": [
-      0
+      1
     ],
     "37cdbe56": [
+      1
+    ],
+    "4d4d4c9f": [
+      0
+    ],
+    "6f9c2eec": [
       0
     ],
     "33e70302": [
+      1
+    ],
+    "4902ef1f": [
       0
     ]
+  },
+  "deps": {
+    "vue-ssr-server-bundle.json": {
+      "js": [
+        "/public/js/vendor.2b6e0934.js",
+        "/public/js/runtime.e60e8e00.js",
+        "/public/js/chunk/app.e1918a0a.js"
+      ],
+      "css": [
+        "/public/css/app.1a528b9a.css"
+      ]
+    }
   }
 }

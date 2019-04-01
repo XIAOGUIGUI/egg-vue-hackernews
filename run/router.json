@@ -6,6 +6,19 @@
       "GET"
     ],
     "paramNames": [],
+    "path": "/user1",
+    "regexp": "/^\\/user1(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
     "path": {
       "keys": []
     },
